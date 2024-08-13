@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .user-card {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .user-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .user-card h2 {
+    font-size: 1.2em;
+  }
+  
+  .user-card a {
+    text-decoration: none;
+    color: #0073e6;
+  }
+  
+  .user-card a:hover {
+    text-decoration: underline;
+  }
+  
